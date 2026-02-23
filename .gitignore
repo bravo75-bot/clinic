@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Server sensitive files
+server/node_modules
+server/.env
+server/.env.*
+server/prisma/*.db
+server/prisma/*.db-journal
