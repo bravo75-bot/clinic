@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: oklch(0.55 0.15 250);
+  --color-brand-light: oklch(0.98 0.01 250);
+  --color-brand-dark: oklch(0.25 0.05 250);
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+  
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-brand-dark bg-white;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-brand-blue text-white px-6 py-3 rounded-xl font-semibold 
+           hover:bg-brand-blue/90 transition-all duration-300 shadow-lg 
+           hover:shadow-brand-blue/20 active:scale-95 text-center;
+  }
+}
