@@ -47,7 +47,7 @@ const Doctor = () => {
             </p>
 
             <p className="text-lg text-brand-dark/70 mb-10 leading-relaxed">
-              Le Dr Désiré Malolokwa est un praticien éminent spécialisé dans la médecine interne. Grâce à son expertise internationale et son dévouement constant, il assure à la Clinique EL RAPHA des standards de soins d'excellence mondiale.
+              Le Dr Désiré Malolokwa est un praticien éminent spécialisé dans la médecine interne. Grâce à son dévouement constant, il assure à la Clinique EL RAPHA des standards de soins excellence.
             </p>
 
             <div className="space-y-6 mb-12">
@@ -57,7 +57,7 @@ const Doctor = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-brand-dark mb-1">Qualifications</h4>
-                  <p className="text-brand-dark/70">Doctorat en Médecine (Spécialisation Médecine Interne), Certifié Expert en Soins de Santé.</p>
+                  <p className="text-brand-dark/70">Spécialisé Médecine Interne et Expert en chirurgie.</p>
                 </div>
               </div>
 
